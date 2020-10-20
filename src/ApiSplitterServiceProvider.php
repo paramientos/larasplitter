@@ -1,11 +1,11 @@
 <?php
 
-namespace Soysaltan\ApiSplitter;
+namespace Soysaltan\LaraSplitter;
 
 use Illuminate\Support\ServiceProvider;
-use Soysaltan\ApiSplitter\Console\CreateApiFileCommand;
+use Soysaltan\LaraSplit\Console\CreateApiFileCommand;
 
-class ApiSplitterServiceProvider extends ServiceProvider
+class Provider extends ServiceProvider
 {
     const VERSION = '1.0.7';
     /**
@@ -23,7 +23,7 @@ class ApiSplitterServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/Config/money.php' => config_path('money.php'),
+            __DIR__ . '/Config/larasplitter.php' => config_path('larasplitter.php'),
         ], 'money');
 
     }
@@ -41,10 +41,11 @@ class ApiSplitterServiceProvider extends ServiceProvider
             ]);
         }
 
-        $this->registerSplittedApiServiceProviders();
+        $this->registerProviders();
+        $this->mergeConfigFrom(__DIR__ . '/Config/larasplitter.php', 'money');
     }
 
-    private function registerSplittedApiServiceProviders()
+    private function registerProviders()
     {
         foreach (glob(base_path('app/Providers/SplitApi*')) as $file) {
             $className = basename($file, '.php');
