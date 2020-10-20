@@ -1,0 +1,37 @@
+{
+  "name": "soysaltan/laravel-api-splitter",
+  "type": "library",
+  "description": "Your package description goes here",
+  "keywords": [
+    "api",
+    "splitter",
+    "routes",
+    "laravel route",
+    "new laravel route",
+    "split laravel api file"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sooysal Tan",
+      "email": "soysaltann@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Soysaltan\\ApiSplitter\\ApiSplitterServiceProvider"
+      ]
+    }
+  }
+}
