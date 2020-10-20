@@ -11,7 +11,7 @@ While working with Laravel, you may encounter a scenario in which route files ne
 Run the following command:
 
 ```bash
-composer req soysaltan/larasplitter
+composer require soysaltan/larasplitter
 ```
 
 ### 2. Register (for Laravel < 5.5)
