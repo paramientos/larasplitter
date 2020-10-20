@@ -33,7 +33,7 @@ php artisan vendor:publish --tag=larasplitter
 
 ### 4. Configure
 
-You can change the currencies information of your app from `config/larasplitter.php` file
+You can change the settings of your app from `config/larasplitter.php` file
 
 ## Usage
 
