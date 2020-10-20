@@ -51,7 +51,7 @@ Finally, you will get a message like
 You can hit the endpoint you have created : **/api/foos**
 
 ### How it works
-**Soysaltan\ApiSplitter\ApiSplitterServiceProvider** registers the api file you want to separate under the **app/Providers** folder. This register dynamically does the following:
+**Soysaltan\LaraSplitter\Provider** registers the api file you want to separate under the **app/Providers** folder. This register dynamically does the following:
 
 ```php
  foreach (glob(base_path('app/Providers/SplitApi*')) as $file) {
