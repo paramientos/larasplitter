@@ -48,6 +48,8 @@ Finally, you will get a message like
   - You can find your '**SplitApiFooServiceProvider**' class at '**/path/to/app/Providers'**
   - Your '**foo.api.php**' file has located at '**/path/to/api/routes**'
 
+You can hit the endpoint you have created : **/api/foos**
+
 ### How it works
 **Soysaltan\ApiSplitter\ApiSplitterServiceProvider** registers the api file you want to separate under the **app/Providers** folder. This register dynamically does the following:
 
