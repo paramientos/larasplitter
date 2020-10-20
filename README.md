@@ -33,7 +33,7 @@ php artisan vendor:publish --tag=splitter
 
 ### 4. Configure
 
-You can change the currencies information of your app from `config/splitter.php` file
+You can change the currencies information of your app from `config/larasplitter.php` file
 
 ## Usage
 
