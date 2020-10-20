@@ -41,8 +41,8 @@ You can change the currencies information of your app from `config/larasplitter.
 php artisan spl:it
 ```
 After this command, you will be asked two questions.
-- Please enter a api file name (the filename will be saved with '.api' suffix): foo
-- Please enter an endpoint name: foos
+- Please enter a api file name (the filename will be saved with '.api' suffix): **foo**
+- Please enter an endpoint name: **foos**
 
 Finally, you will get a message like
   - You can find your '**SplitApiFooServiceProvider**' class at '**/path/to/app/Providers'**
