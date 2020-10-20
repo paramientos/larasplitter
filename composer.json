@@ -24,13 +24,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Soysaltan\\ApiSplitter\\": "./src"
+      "Soysaltan\\LaraSplitter\\": "./src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Soysaltan\\ApiSplitter\\ApiSplitterServiceProvider"
+        "Soysaltan\\LaraSplitter\\Provider"
       ]
     }
   }
