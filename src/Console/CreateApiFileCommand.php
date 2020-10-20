@@ -1,6 +1,6 @@
 <?php
 
-namespace Soysaltan\ApiSplitter\Console;
+namespace Soysaltan\LaraSplit\Console;
 
 use App\Constants\Roles;
 use App\Helpers\FileHelper;
