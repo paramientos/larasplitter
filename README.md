@@ -19,7 +19,7 @@ composer require soysaltan/larasplitter
 Register the service provider in `config/app.php`
 
 ```php
- Soysaltan\LaraSplit\ApiSplitterServiceProvider::class,
+ Soysaltan\LaraSplitter\Provider::class,
 ```
 
 ### 3. Publish
