@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/soysaltan/larasplitter/v)](//packagist.org/packages/soysaltan/larasplitter) [![Total Downloads](https://poser.pugx.org/soysaltan/larasplitter/downloads)](//packagist.org/packages/soysaltan/larasplitter) [![Latest Unstable Version](https://poser.pugx.org/soysaltan/larasplitter/v/unstable)](//packagist.org/packages/soysaltan/larasplitter) [![License](https://poser.pugx.org/soysaltan/larasplitter/license)](//packagist.org/packages/soysaltan/larasplitter)
 
-In some cases, you have thought of separating your Laravel api files, in this case you will need to make some changes in the project. This job can often become a chore, I have often faced this problem so I developed a package to help you automate this kind of chore.
+While working with Laravel, you may encounter a scenario in which route files need to be separated.In this case you will need to make some changes in the project. This process can often become a chore, I have often faced this problem so I developed a package to help you automate this kind of chore.
 
 ## Getting Started
 
