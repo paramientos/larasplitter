@@ -50,6 +50,11 @@ Finally, you will get a message like
 
 You can hit the endpoint you have created : **/api/foos**
 
+## Requirements
+Laravel 5.3+
+
+PHP 5.6.4+
+
 ### How it works
 **Soysaltan\LaraSplitter\Provider** registers the route file you want to separate under the **app/Providers** folder. This register dynamically does the following:
 
