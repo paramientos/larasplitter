@@ -50,7 +50,7 @@ Finally, you will get a message like
 
 You can hit the endpoint you have created : **/api/foos**
 
-## Requirements
+### Requirements
 Laravel 5.3+
 
 PHP 5.6.4+
