@@ -1,4 +1,4 @@
-# Decompose routes in as many files as you want for Laravel
+# Decompose your Laravel route files
 
 [![Version](https://poser.pugx.org/akaunting/money/v/stable.svg)](https://github.com/paramientıs/laravel-api-splitter/releases)
 
