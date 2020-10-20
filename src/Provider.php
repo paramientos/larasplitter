@@ -24,7 +24,7 @@ class Provider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/Config/larasplitter.php' => config_path('larasplitter.php'),
-        ], 'money');
+        ], 'larasplitter');
 
     }
 
@@ -42,7 +42,7 @@ class Provider extends ServiceProvider
         }
 
         $this->registerProviders();
-        $this->mergeConfigFrom(__DIR__ . '/Config/larasplitter.php', 'money');
+        $this->mergeConfigFrom(__DIR__ . '/Config/larasplitter.php', 'larasplitter');
     }
 
     private function registerProviders()
