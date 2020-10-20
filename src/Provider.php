@@ -7,7 +7,7 @@ use Soysaltan\LaraSplit\Console\CreateApiFileCommand;
 
 class Provider extends ServiceProvider
 {
-    const VERSION = '1.0.7';
+    const VERSION = '1.0.1';
     /**
      * Indicates if loading of the provider is deferred.
      *
