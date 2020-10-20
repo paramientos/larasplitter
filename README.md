@@ -59,7 +59,7 @@ You can hit the endpoint you have created : **/api/foos**
 		$this->app->register("\App\Providers\\$className");
 	}
 ```
-Each separate api file is mapped to a provider and registered in the system in this way.
+Each separate route file is mapped to a provider and registered in the system in this way.
 
 ## Changelog
 
