@@ -46,7 +46,7 @@ After this command, you will be asked two questions.
 
 Finally, you will get a message like
   - You can find your '**SplitApiFooServiceProvider**' class at '**/path/to/app/Providers'**
-  - Your '**foo.api.php**' file has located at '**/path/to/api/routes**'
+  - Your '**foo.api.php**' file has located at '**/path/to/routes**'
 
 You can hit the endpoint you have created : **/api/foos**
 
