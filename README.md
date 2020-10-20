@@ -27,7 +27,7 @@ Register the service provider in `config/app.php`
 Publish config file.
 
 ```bash
-php artisan vendor:publish --tag=splitter
+php artisan vendor:publish --tag=larasplitter
 ```
 
 
