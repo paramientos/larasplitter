@@ -75,7 +75,7 @@ If you discover any security related issues, please email soysaltann@gmail.com i
 
 ## Credits
 
-- [Soysal Tan](https://github.com/paramientos)
+- [Soysal Tan](https://github.com/soysaltan)
 
 ## License
 
