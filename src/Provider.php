@@ -3,7 +3,7 @@
 namespace Soysaltan\LaraSplitter;
 
 use Illuminate\Support\ServiceProvider;
-use Soysaltan\LaraSplit\Console\CreateApiFileCommand;
+use Soysaltan\LaraSplitter\Console\CreateApiFileCommand;
 
 class Provider extends ServiceProvider
 {
