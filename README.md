@@ -19,7 +19,7 @@ composer require soysaltan/laravel-api-splitter
 Register the service provider in `config/app.php`
 
 ```php
- Soysaltan\ApiSplitter\ApiSplitterServiceProvider::class,
+ Soysaltan\LaraSplit\ApiSplitterServiceProvider::class,
 ```
 
 ### 3. Publish
